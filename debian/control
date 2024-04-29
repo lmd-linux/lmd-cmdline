@@ -7,8 +7,15 @@ Build-Depends: debhelper-compat (= 13)
 
 Package: lmd-cmdline
 Architecture: all
-Depends: bash-completion, git, man, tmux, vim-addon-manager, vim-nox
-Recommends: powerline, powerline-gitstatus
+Depends:
+ bash-completion,
+ git,
+ man,
+ powerline,
+ powerline-gitstatus,
+ tmux,
+ vim-addon-manager,
+ vim-nox
 Maintainer: lmd Linux <lmd.linux@gmail.com>
 Description: command-line tools
  A collection of useful command-line tools and their default configuration
